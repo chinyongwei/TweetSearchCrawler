@@ -1,0 +1,15 @@
+*.class
+*.settings
+*.classpath
+*.metadata
+*.html
+*.txt
+.project
+
+# Package Files #
+*.war
+*.ear
+/bin
+/Test_Vector
+/model
+/TESTING_VECTOR
