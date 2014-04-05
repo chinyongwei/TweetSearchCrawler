@@ -64,7 +64,7 @@ public class TweetCrawler {
 			//to test for one crawl
 //			int round = 1;
 //			while (round-- > 0) {
-			while( (crawlTillMonth>=stopMonth)?(crawlTillDate>=stopDate):false ){
+			while( (crawlTillMonth>stopMonth)?true:(((crawlTillMonth==stopMonth)?(crawlTillDate>=stopDate):false)) ){
 				System.out.println("____________crawl start____________");
 				crawlURL(scroll_cursor, scroll_cursor + ".html");
 				System.out.println("____________crawl end____________");
